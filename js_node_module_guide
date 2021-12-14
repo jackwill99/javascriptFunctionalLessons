@@ -1,0 +1,7 @@
+To import global node module in ur project,
+go to ur project diractory and
+
+1. npm link <node_package>
+2. assign to a variable node module by using require
+    var fs = require('fs');
+3. Now global package is linked to ur project
